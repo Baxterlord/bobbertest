@@ -1,0 +1,71 @@
+body {
+    font-family: 'SF Pro Display', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.5;
+}
+
+.kopfzeile {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    padding: 10px 0;
+}
+
+.kopfzeile nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.kopfzeile nav ul li {
+    margin: 0 15px;
+}
+
+.kopfzeile nav ul li a {
+    color: #f5f5f7;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hauptinhalt {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.untertitel {
+    font-size: 26px;
+    font-weight: 400;
+    color: #86868b;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #f5f5f7;
+    color: #86868b;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+/* Fügen Sie hier weitere Stile hinzu... */
